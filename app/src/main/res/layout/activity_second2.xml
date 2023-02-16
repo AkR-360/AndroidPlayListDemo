@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:src="@drawable/arvind"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:textSize="10dp"
+            android:text="Hello Buddy.This side Arvind welcome to one and all who are just seeing this apk.I am a Computer science Engineering student.
+     Currently working on the platform Android Studio for the Development of various apk's. So of this time I written some of my skills that are follows..
+	,Having knowledge of C and C++ computer languages.
+	,Intermediate in JAVA computer languages.
+	,Basic knowledge of Android Studio.
+	,Decent knowledge in HTML/CSS.
+	,Basic knowledge in DBMS.
+	,A training program in Soft Skill and Personality Development, from NPTEL.
+“To work in time with the objectives of the organization and utilize my potential to the optimum for the benefit and growth of the organization. A highly motivated, well-travelled and creative graduate with practical experience.”
+So Anyone can approach me for the various development. Thanks To all who is saw my apk.
+good night . As for now I am logging out BYE. "
+            />
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/btnDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:text="DARK"
+        app:backgroundTint="#3D5457" />
+
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="monospace"
+        android:padding="10dp"
+        android:text="READ"
+        app:backgroundTint="#38585C" />
+
+</LinearLayout>
